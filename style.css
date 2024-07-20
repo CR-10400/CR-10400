@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css?family=Abril+Fatface");
+@import url("https://use.fontawesome.com/releases/v6.5.1/css/all.css");
+
+/* TikTok Code The World */
+
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 1.2em;
+    background: #ffe7e9 url("https://www.wallpaperscristaos.com.br/wp-content/uploads/2023/02/wallpaper-cristao-hd-andarei-presenca-do-Senhor-violao_1920x1200.jpg") no-repeat center center fixed;
+    background-size: cover;
+    color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.datepicker {
+    width: 475px;
+    background: #fdfdfd;
+    border-radius: 10px;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.2), 0 15px 12px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.header {
+    height: 250px;
+    background-image: url("https://portalsustentabilidade.com/wp-content/uploads/2023/02/design-destaque-47.jpg");
+    background-size: cover;
+}
+
+.ui-datepicker-inline {
+    padding: 30px;
+}
+
+.ui-datepicker-header {
+    color: #333;
+    text-align: center;
+    font-size: 1.4em;
+    padding-bottom: 0.5em;
+    letter-spacing: 0.1em;
+}
+
+.ui-datepicker-prev,
+.ui-datepicker-next {
+    color: #ddd;
+    font-size: 1.4em;
+    padding: 0 5px;
+    margin-top: -8px;
+}
+
+.ui-datepicker-prev {
+    float: left;
+}
+
+.ui-datepicker-next {
+    float: right;
+}
+
+.ui-datepicker-calendar {
+    width: 100%;
+    text-align: center;
+}
+
+thead {
+    color: #ddd;
+}
+
+tr th,
+tr td {
+    padding-bottom: 0.4em;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+    display: block;
+    margin: 0 auto;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    border: 1px solid transparent;
+}
+
+.ui-state-highlight {
+    background: #da89a2;
+    color: #fff;
+}
